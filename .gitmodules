@@ -1,0 +1,9 @@
+[submodule "tommoc-assesment"]
+	path = tommoc-assesment
+	url = https://github.com/basilaslam/tommoc-assesment
+[submodule "front-end"]
+	path = front-end
+	url = https://github.com/basilaslam/tummok-assesment-frontEnd
+[submodule "back-end"]
+	path = back-end
+	url = https://github.com/basilaslam/tommoc-assesment
