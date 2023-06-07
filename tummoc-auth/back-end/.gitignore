@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+
+# Build output
+build
+dist
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+
+# Mac OS
+.DS_Store
+
+# Editors
+*.bak
+*~

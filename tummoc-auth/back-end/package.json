@@ -1,0 +1,56 @@
+{
+  "name": "tummoc",
+  "description": "simple backend for signin and signUp",
+  "version": "1.01",
+  "license": "MIT",
+  "author": {
+    "name": "Basil Aslam",
+    "email": "job.basilaslam@gmail.com",
+    "url": "www.example.com"
+  },
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "start:dev": "ts-node -r tsconfig-paths/register ./src/index.ts",
+    "dev": "nodemon",
+    "format": "prettier --write \"./**/*.{js,json}\"",
+    "build": "rimraf ./build && tsc"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.2",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.2",
+    "mongoose-findorcreate": "^4.0.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "rimraf": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.5",
+    "@types/passport-google-oauth2": "^0.1.5",
+    "@types/passport-jwt": "^3.0.8",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard-with-typescript": "^35.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-sort-destructure-keys": "^1.5.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
